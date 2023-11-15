@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gpt-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["nakazono1011 <syousanitiosi1011@yahoo.co.jp>"]
+readme = "README.md"
+packages = [{include = "gpt_chatbot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.28.2"
+openai = "^1.2.4"
+langchain = "^0.0.335"
+python-dotenv = "^1.0.0"
+duckduckgo-search = "^3.9.5"
+wikipedia = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
